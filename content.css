@@ -1,0 +1,41 @@
+.ai-template-modal {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  background: white;
+  padding: 20px;
+  border: 2px solid #444;
+  border-radius: 8px;
+  z-index: 99999;
+  width: 320px;
+  font-family: Arial, sans-serif;
+}
+
+.ai-template-modal h3 {
+  margin-top: 0;
+}
+
+.ai-template-modal label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.ai-template-modal input {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.ai-template-modal button {
+  margin-top: 15px;
+  padding: 8px 12px;
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
